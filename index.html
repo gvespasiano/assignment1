@@ -2,26 +2,62 @@
 <html lang="en">
 <head>
 	<style>
+		html{
+			color:white;
+		}
 		.header{
 			background-color:#c93042;
 			width:648px;
 			height:128px;
-			color:white;
+			text-align:center;
 		}
-		h1.header{
-			
+		h1.hea{
+			position:relative;
+			top:10px;
 		}
-		h2.header{
-			
+		h2.head{
+			font-size:58px;
+			position:relative;
+			top:-35px;
 		}
 		.offer{
 			background-image:url("bg.jpg");
+			background-repeat: no-repeat;
 			padding:none;
 			position:relative;
 			top:-19px;
 			height:266px;
+			font-family:helvetica;
 		}
-	
+		.button{
+			color:black;
+			font-family:none;
+			text-align:center;
+		}
+		.info{
+			width:222px;
+			position:relative;
+			left:385px;
+			top:55px;
+			line-height:1.3em;
+		}
+		p{
+			font-size:14px;
+		}
+		#push{
+			position:relative;
+			top:-12px;
+		}
+		.button{
+			position:relative;
+			left:-533px;
+			top:38px;
+		}
+		h4.but{
+			font-size:18px;
+			line-height:1em;
+		}
+		
 	</style>	
 	 <title>Assignment 1</title>
 	
@@ -29,19 +65,21 @@
 
 <body>
 	<div class="header">
-		<h1>Cool down, wake up!</h1>
-		<h2>2-for-1 Cold Beverages</h2>
+		<h1 class="hea">Cool down, wake up!</h1>
+		<h2 class="head">2-for-1 Cold Beverages</h2>
 	</div>
 	<div class="offer">
 		<div class="info">
 		<h3>Just print and present this coupon to double your pleasure</h3>
+		<div id="push">
 		<p>Through April 25, buy any featured iced or blended coffee beverage and get a 2nd one free.</p>
 	</div>
+	</div>
 	<div class="button">
-		<p>Spread<br>the Word!</P>
+		<h4 class=but>Spread<br>the Word!</h4>
 	</div>
 	</div>
-    <scripzt>
+    <script>
 		setTimeout(function(){
 			alert("Print now!")(new Date());	
 		}, 5000);
